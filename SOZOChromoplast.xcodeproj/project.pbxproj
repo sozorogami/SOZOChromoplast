@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314F938619D1C371002AB1D9 /* SOZOChromoplast.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 314F938519D1C371002AB1D9 /* SOZOChromoplast.h */; };
+		314F938819D1C371002AB1D9 /* SOZOChromoplast.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F938719D1C371002AB1D9 /* SOZOChromoplast.m */; };
+		314F939F19D1C79F002AB1D9 /* SOZOColorSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F939A19D1C79F002AB1D9 /* SOZOColorSorter.m */; };
+		314F93A019D1C79F002AB1D9 /* SOZOColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F939C19D1C79F002AB1D9 /* SOZOColorCube.m */; };
+		314F93A119D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */; };
+		314F93A419D1C81C002AB1D9 /* UIImage+SOZOResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */; };
+		314F93A919D1C82D002AB1D9 /* UIColor+SOZOIntensity.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */; };
+		314F93AA19D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */; };
+		314F93AE19D1C86F002AB1D9 /* SOZOColorSorterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93AB19D1C86F002AB1D9 /* SOZOColorSorterSpec.m */; };
+		314F93AF19D1C86F002AB1D9 /* SOZOColorCubeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93AC19D1C86F002AB1D9 /* SOZOColorCubeSpec.m */; };
+		314F93B019D1C86F002AB1D9 /* SOZOCubeKeyGeneratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93AD19D1C86F002AB1D9 /* SOZOCubeKeyGeneratorSpec.m */; };
+		314F93B219D1C88F002AB1D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F93B119D1C88F002AB1D9 /* UIKit.framework */; };
+		314F93B619D1D24D002AB1D9 /* libSOZOChromoplast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F938219D1C371002AB1D9 /* libSOZOChromoplast.a */; };
+		314F93B819D1D25C002AB1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F93B719D1D25C002AB1D9 /* Foundation.framework */; };
+		A0D6CA22C5C548E4A2A1D97E /* libPods-SOZOChromoplastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226847F1BA6B441E8EDFB8DF /* libPods-SOZOChromoplastTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314F93B419D1D1B0002AB1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314F937A19D1C371002AB1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314F938119D1C371002AB1D9;
+			remoteInfo = SOZOChromoplast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		314F938019D1C371002AB1D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				314F938619D1C371002AB1D9 /* SOZOChromoplast.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0371703038714AA69482AE87 /* Pods-SOZOChromoplastTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOZOChromoplastTests.xcconfig"; path = "Pods/Pods-SOZOChromoplastTests.xcconfig"; sourceTree = "<group>"; };
+		226847F1BA6B441E8EDFB8DF /* libPods-SOZOChromoplastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SOZOChromoplastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F938219D1C371002AB1D9 /* libSOZOChromoplast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSOZOChromoplast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F938519D1C371002AB1D9 /* SOZOChromoplast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOZOChromoplast.h; sourceTree = "<group>"; };
+		314F938719D1C371002AB1D9 /* SOZOChromoplast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOZOChromoplast.m; sourceTree = "<group>"; };
+		314F938D19D1C371002AB1D9 /* SOZOChromoplastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOZOChromoplastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F939019D1C371002AB1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314F939919D1C79F002AB1D9 /* SOZOColorSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOZOColorSorter.h; sourceTree = "<group>"; };
+		314F939A19D1C79F002AB1D9 /* SOZOColorSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOColorSorter.m; sourceTree = "<group>"; };
+		314F939B19D1C79F002AB1D9 /* SOZOColorCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOZOColorCube.h; sourceTree = "<group>"; };
+		314F939C19D1C79F002AB1D9 /* SOZOColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOColorCube.m; sourceTree = "<group>"; };
+		314F939D19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOZOCubeKeyGenerator.h; sourceTree = "<group>"; };
+		314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOCubeKeyGenerator.m; sourceTree = "<group>"; };
+		314F93A219D1C81C002AB1D9 /* UIImage+SOZOResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SOZOResize.h"; sourceTree = "<group>"; };
+		314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SOZOResize.m"; sourceTree = "<group>"; };
+		314F93A519D1C82D002AB1D9 /* UIColor+SOZOIntensity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SOZOIntensity.h"; sourceTree = "<group>"; };
+		314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SOZOIntensity.m"; sourceTree = "<group>"; };
+		314F93A719D1C82D002AB1D9 /* SOZOBitmapDataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOZOBitmapDataGenerator.h; sourceTree = "<group>"; };
+		314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOBitmapDataGenerator.m; sourceTree = "<group>"; };
+		314F93AB19D1C86F002AB1D9 /* SOZOColorSorterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOColorSorterSpec.m; sourceTree = "<group>"; };
+		314F93AC19D1C86F002AB1D9 /* SOZOColorCubeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOColorCubeSpec.m; sourceTree = "<group>"; };
+		314F93AD19D1C86F002AB1D9 /* SOZOCubeKeyGeneratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOCubeKeyGeneratorSpec.m; sourceTree = "<group>"; };
+		314F93B119D1C88F002AB1D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		314F93B319D1CA0B002AB1D9 /* SOZOChromoplast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOZOChromoplast-Prefix.pch"; sourceTree = "<group>"; };
+		314F93B719D1D25C002AB1D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314F937F19D1C371002AB1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F93B219D1C88F002AB1D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F938A19D1C371002AB1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F93B819D1D25C002AB1D9 /* Foundation.framework in Frameworks */,
+				314F93B619D1D24D002AB1D9 /* libSOZOChromoplast.a in Frameworks */,
+				A0D6CA22C5C548E4A2A1D97E /* libPods-SOZOChromoplastTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		314F937919D1C371002AB1D9 = {
+			isa = PBXGroup;
+			children = (
+				314F938419D1C371002AB1D9 /* SOZOChromoplast */,
+				314F938E19D1C371002AB1D9 /* SOZOChromoplastTests */,
+				314F938319D1C371002AB1D9 /* Products */,
+				0371703038714AA69482AE87 /* Pods-SOZOChromoplastTests.xcconfig */,
+				BF4FD46D619B4DB3A42E0EB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		314F938319D1C371002AB1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314F938219D1C371002AB1D9 /* libSOZOChromoplast.a */,
+				314F938D19D1C371002AB1D9 /* SOZOChromoplastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314F938419D1C371002AB1D9 /* SOZOChromoplast */ = {
+			isa = PBXGroup;
+			children = (
+				314F93B319D1CA0B002AB1D9 /* SOZOChromoplast-Prefix.pch */,
+				314F93A719D1C82D002AB1D9 /* SOZOBitmapDataGenerator.h */,
+				314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */,
+				314F938519D1C371002AB1D9 /* SOZOChromoplast.h */,
+				314F938719D1C371002AB1D9 /* SOZOChromoplast.m */,
+				314F939919D1C79F002AB1D9 /* SOZOColorSorter.h */,
+				314F939A19D1C79F002AB1D9 /* SOZOColorSorter.m */,
+				314F939B19D1C79F002AB1D9 /* SOZOColorCube.h */,
+				314F939C19D1C79F002AB1D9 /* SOZOColorCube.m */,
+				314F939D19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.h */,
+				314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */,
+				314F93A519D1C82D002AB1D9 /* UIColor+SOZOIntensity.h */,
+				314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */,
+				314F93A219D1C81C002AB1D9 /* UIImage+SOZOResize.h */,
+				314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */,
+			);
+			path = SOZOChromoplast;
+			sourceTree = "<group>";
+		};
+		314F938E19D1C371002AB1D9 /* SOZOChromoplastTests */ = {
+			isa = PBXGroup;
+			children = (
+				314F93AB19D1C86F002AB1D9 /* SOZOColorSorterSpec.m */,
+				314F93AC19D1C86F002AB1D9 /* SOZOColorCubeSpec.m */,
+				314F93AD19D1C86F002AB1D9 /* SOZOCubeKeyGeneratorSpec.m */,
+				314F938F19D1C371002AB1D9 /* Supporting Files */,
+			);
+			path = SOZOChromoplastTests;
+			sourceTree = "<group>";
+		};
+		314F938F19D1C371002AB1D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314F939019D1C371002AB1D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF4FD46D619B4DB3A42E0EB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314F93B119D1C88F002AB1D9 /* UIKit.framework */,
+				314F93B719D1D25C002AB1D9 /* Foundation.framework */,
+				226847F1BA6B441E8EDFB8DF /* libPods-SOZOChromoplastTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314F938119D1C371002AB1D9 /* SOZOChromoplast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F939319D1C371002AB1D9 /* Build configuration list for PBXNativeTarget "SOZOChromoplast" */;
+			buildPhases = (
+				314F937E19D1C371002AB1D9 /* Sources */,
+				314F937F19D1C371002AB1D9 /* Frameworks */,
+				314F938019D1C371002AB1D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOZOChromoplast;
+			productName = SOZOChromoplast;
+			productReference = 314F938219D1C371002AB1D9 /* libSOZOChromoplast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		314F938C19D1C371002AB1D9 /* SOZOChromoplastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F939619D1C371002AB1D9 /* Build configuration list for PBXNativeTarget "SOZOChromoplastTests" */;
+			buildPhases = (
+				5D85B2D52F634B8FACD9CCAE /* Check Pods Manifest.lock */,
+				314F938919D1C371002AB1D9 /* Sources */,
+				314F938A19D1C371002AB1D9 /* Frameworks */,
+				314F938B19D1C371002AB1D9 /* Resources */,
+				A615CB438BAB41BFA3868AB4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314F93B519D1D1B0002AB1D9 /* PBXTargetDependency */,
+			);
+			name = SOZOChromoplastTests;
+			productName = SOZOChromoplastTests;
+			productReference = 314F938D19D1C371002AB1D9 /* SOZOChromoplastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314F937A19D1C371002AB1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sozorogami;
+				TargetAttributes = {
+					314F938119D1C371002AB1D9 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					314F938C19D1C371002AB1D9 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 314F937D19D1C371002AB1D9 /* Build configuration list for PBXProject "SOZOChromoplast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 314F937919D1C371002AB1D9;
+			productRefGroup = 314F938319D1C371002AB1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314F938119D1C371002AB1D9 /* SOZOChromoplast */,
+				314F938C19D1C371002AB1D9 /* SOZOChromoplastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314F938B19D1C371002AB1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D85B2D52F634B8FACD9CCAE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A615CB438BAB41BFA3868AB4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SOZOChromoplastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314F937E19D1C371002AB1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F93A019D1C79F002AB1D9 /* SOZOColorCube.m in Sources */,
+				314F938819D1C371002AB1D9 /* SOZOChromoplast.m in Sources */,
+				314F93A919D1C82D002AB1D9 /* UIColor+SOZOIntensity.m in Sources */,
+				314F939F19D1C79F002AB1D9 /* SOZOColorSorter.m in Sources */,
+				314F93A419D1C81C002AB1D9 /* UIImage+SOZOResize.m in Sources */,
+				314F93A119D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m in Sources */,
+				314F93AA19D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F938919D1C371002AB1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F93B019D1C86F002AB1D9 /* SOZOCubeKeyGeneratorSpec.m in Sources */,
+				314F93AF19D1C86F002AB1D9 /* SOZOColorCubeSpec.m in Sources */,
+				314F93AE19D1C86F002AB1D9 /* SOZOColorSorterSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314F93B519D1D1B0002AB1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314F938119D1C371002AB1D9 /* SOZOChromoplast */;
+			targetProxy = 314F93B419D1D1B0002AB1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		314F939119D1C371002AB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		314F939219D1C371002AB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314F939419D1C371002AB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOZOChromoplast/SOZOChromoplast-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		314F939519D1C371002AB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOZOChromoplast/SOZOChromoplast-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		314F939719D1C371002AB1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0371703038714AA69482AE87 /* Pods-SOZOChromoplastTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOZOChromoplast/SOZOChromoplast-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SOZOChromoplastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		314F939819D1C371002AB1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0371703038714AA69482AE87 /* Pods-SOZOChromoplastTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOZOChromoplast/SOZOChromoplast-Prefix.pch";
+				INFOPLIST_FILE = SOZOChromoplastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314F937D19D1C371002AB1D9 /* Build configuration list for PBXProject "SOZOChromoplast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F939119D1C371002AB1D9 /* Debug */,
+				314F939219D1C371002AB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314F939319D1C371002AB1D9 /* Build configuration list for PBXNativeTarget "SOZOChromoplast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F939419D1C371002AB1D9 /* Debug */,
+				314F939519D1C371002AB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314F939619D1C371002AB1D9 /* Build configuration list for PBXNativeTarget "SOZOChromoplastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F939719D1C371002AB1D9 /* Debug */,
+				314F939819D1C371002AB1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 314F937A19D1C371002AB1D9 /* Project object */;
+}

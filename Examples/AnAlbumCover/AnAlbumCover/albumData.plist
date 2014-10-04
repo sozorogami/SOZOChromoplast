@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>coverFilename</key>
+		<string>abbey</string>
+		<key>albumTitle</key>
+		<string>Abbey Road</string>
+		<key>albumArtist</key>
+		<string>The Beatles</string>
+		<key>label</key>
+		<string>Apple Records</string>
+		<key>releaseYear</key>
+		<string>1969</string>
+		<key>duration</key>
+		<string>47 min</string>
+		<key>funFact</key>
+		<string>Some saw Paul walking barefoot on this cover as evidence of his untimely demise, while in fact it only signified that he was a gross hippie.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>abrown</string>
+		<key>albumTitle</key>
+		<string>Clouds</string>
+		<key>albumArtist</key>
+		<string>Apollo Brown</string>
+		<key>label</key>
+		<string>Mello Music Group</string>
+		<key>releaseYear</key>
+		<string>2011</string>
+		<key>duration</key>
+		<string>53 min</string>
+		<key>funFact</key>
+		<string>Album artwork portrays modern man as an &quot;inverse Lakitu.&quot;</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>alice</string>
+		<key>albumTitle</key>
+		<string>Welcome to my Nightmare</string>
+		<key>albumArtist</key>
+		<string>Alice Cooper</string>
+		<key>label</key>
+		<string>Atlantic</string>
+		<key>releaseYear</key>
+		<string>1975</string>
+		<key>duration</key>
+		<string>43 min</string>
+		<key>funFact</key>
+		<string>Audiences agree that Cooper&apos;s nightmare is more welcoming than Guns n&apos; Roses&apos; jungle, which has been described as &quot;kinda rapey.&quot;</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>beulah</string>
+		<key>albumTitle</key>
+		<string>The Coast is Never Clear</string>
+		<key>albumArtist</key>
+		<string>Beulah</string>
+		<key>label</key>
+		<string>Velocette Records</string>
+		<key>releaseYear</key>
+		<string>2001</string>
+		<key>duration</key>
+		<string>42 min</string>
+		<key>funFact</key>
+		<string>When asked his favorite band from the Elephant 6 Collective, Nixon-loving ultraconservative Ben Stein replied, &quot;Beulah. Beulah.&quot;</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>bevans</string>
+		<key>albumTitle</key>
+		<string>California, Here I Come</string>
+		<key>label</key>
+		<string>Verve</string>
+		<key>albumArtist</key>
+		<string>Bill Evans</string>
+		<key>releaseYear</key>
+		<string>1982</string>
+		<key>duration</key>
+		<string>1 hr 14 min</string>
+		<key>funFact</key>
+		<string>If Bill Evans were as good at shooting heroin as he was at playing piano, he might still be with us today.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>bowie</string>
+		<key>albumTitle</key>
+		<string>Aladdin Sane</string>
+		<key>albumArtist</key>
+		<string>David Bowie</string>
+		<key>label</key>
+		<string>RCA</string>
+		<key>releaseYear</key>
+		<string>1973</string>
+		<key>duration</key>
+		<string>40 min</string>
+		<key>funFact</key>
+		<string>Sequels &quot;Bambi Sane&quot; and &quot;The Little Mermaid Sane&quot; did not fare well on the charts.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>boy</string>
+		<key>albumTitle</key>
+		<string>The Best Party Ever</string>
+		<key>albumArtist</key>
+		<string>The Boy Least Likely To</string>
+		<key>label</key>
+		<string>Too Young to Die</string>
+		<key>releaseYear</key>
+		<string>2005</string>
+		<key>duration</key>
+		<string>37 min</string>
+		<key>funFact</key>
+		<string>The party was average at best.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>darkside</string>
+		<key>albumTitle</key>
+		<string>Dark Side of the Moon</string>
+		<key>albumArtist</key>
+		<string>Pink Floyd</string>
+		<key>label</key>
+		<string>Harvest</string>
+		<key>releaseYear</key>
+		<string>1973</string>
+		<key>duration</key>
+		<string>43 min</string>
+		<key>funFact</key>
+		<string>In addition to the prisim, Isaac Newton discovered that lunar eclipses occur when the moon turns its dark side toward the Earth.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>dre</string>
+		<key>albumTitle</key>
+		<string>The Chronic</string>
+		<key>albumArtist</key>
+		<string>Dr. Dre</string>
+		<key>label</key>
+		<string>Death Row</string>
+		<key>releaseYear</key>
+		<string>1992</string>
+		<key>duration</key>
+		<string>62 min</string>
+		<key>funFact</key>
+		<string>It was Dr. Dre&apos;s Ph.D. in electronic engineering that allowed him to develop his popular &quot;Beats by Dre&quot; line of headphones.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>hermajesty</string>
+		<key>albumTitle</key>
+		<string>Her Majesty</string>
+		<key>albumArtist</key>
+		<string>The Decemberists</string>
+		<key>label</key>
+		<string>Kill Rock Stars</string>
+		<key>releaseYear</key>
+		<string>2003</string>
+		<key>duration</key>
+		<string>48 min</string>
+		<key>funFact</key>
+		<string>Among his earliest musical influences, Decemberists frontman Colin Meloy cites a &quot;cool older cousin&quot; who lent him CDs, and his mother, a drunken seaman.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>iggy</string>
+		<key>albumTitle</key>
+		<string>The New Classic</string>
+		<key>albumArtist</key>
+		<string>Iggy Azalea</string>
+		<key>label</key>
+		<string>Virgin EMI</string>
+		<key>releaseYear</key>
+		<string>2014</string>
+		<key>duration</key>
+		<string>51 min</string>
+		<key>funFact</key>
+		<string>Iggy Azalea is fancy. (You may already be aware of this.)</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>jnoir</string>
+		<key>albumTitle</key>
+		<string>Tower of Love</string>
+		<key>albumArtist</key>
+		<string>Jim Noir</string>
+		<key>label</key>
+		<string>Barsuk Records</string>
+		<key>releaseYear</key>
+		<string>2005</string>
+		<key>duration</key>
+		<string>45 min</string>
+		<key>funFact</key>
+		<string>English singer-songwriter Jim Noir&apos;s album is here mainly for its pretty colors. Or as he might say, &quot;colours.&quot;</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>nirvana</string>
+		<key>albumTitle</key>
+		<string>Nevermind</string>
+		<key>albumArtist</key>
+		<string>Nirvana</string>
+		<key>label</key>
+		<string>DGC</string>
+		<key>releaseYear</key>
+		<string>1991</string>
+		<key>duration</key>
+		<string>47 min</string>
+		<key>funFact</key>
+		<string>Baby penises are weird and make me uncomfortable.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>rihanna</string>
+		<key>albumTitle</key>
+		<string>Loud</string>
+		<key>albumArtist</key>
+		<string>Rihanna</string>
+		<key>label</key>
+		<string>Def Jam</string>
+		<key>releaseYear</key>
+		<string>2010</string>
+		<key>duration</key>
+		<string>46 min</string>
+		<key>funFact</key>
+		<string>If you were the only boy in the world, Rihanna still would not be interested.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>starfucker</string>
+		<key>albumTitle</key>
+		<string>Reptilians</string>
+		<key>albumArtist</key>
+		<string>Starfucker</string>
+		<key>label</key>
+		<string>Polyvinyl Records</string>
+		<key>releaseYear</key>
+		<string>2011</string>
+		<key>duration</key>
+		<string>40 min</string>
+		<key>funFact</key>
+		<string>Musicians and github enthusiasts Starforker were appalled to discover that their album cover had a glaring typo.</string>
+	</dict>
+	<dict>
+		<key>coverFilename</key>
+		<string>vampireweekend</string>
+		<key>albumTitle</key>
+		<string>Vampire Weekend</string>
+		<key>albumArtist</key>
+		<string>Vampire Weekend</string>
+		<key>label</key>
+		<string>XL</string>
+		<key>releaseYear</key>
+		<string>2007</string>
+		<key>duration</key>
+		<string>34 min</string>
+		<key>funFact</key>
+		<string>Someone&apos;s got a case of the Vampire Mondays.</string>
+	</dict>
+</array>
+</plist>
