@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
                    perfect color scheme every time.
                    DESC
 
-  s.homepage     = "https://bitbucket.org/sozorogami/"
+  s.homepage     = "https://github.com/sozorogami/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "sozorogami" => "tyler.tape@gmail.com" }
   s.social_media_url   = "http://twitter.com/sozorogami"
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://sozorogami@bitbucket.org/sozorogami/sozochloroplast.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/sozorogami/SOZOChromoplast.git", :tag => "v#{s.version}" }
   s.source_files  = "SOZOChromoplast/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude", "Examples"
   s.requires_arc = true
