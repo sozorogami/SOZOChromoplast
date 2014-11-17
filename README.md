@@ -26,7 +26,7 @@ UIImage *someImage = [UIImage imageNamed:@"someImage.png"];
 SOZOChromoplast *chromoplast = [[SOZOChromoplast alloc] initWithImage:someImage];
 
 // Use your colors!
-self.view.backgroundColor = chromoplast.primaryColor;
+self.view.backgroundColor = chromoplast.dominantColor;
 self.label1.textColor = chromoplast.firstHighlight;
 self.label2.textColor = chromoplast.secondHighlight;
 ```
