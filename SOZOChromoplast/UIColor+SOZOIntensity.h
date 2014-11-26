@@ -2,6 +2,6 @@
 
 @interface UIColor (SOZOIntensity)
 
-- (float)intensity;
+- (float)brightness;
 
 @end
