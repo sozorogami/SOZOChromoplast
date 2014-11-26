@@ -20,7 +20,7 @@
     self = [super init];
     if (self) {
         NSArray *pixelColors = [SOZOBitmapDataGenerator bitmapDataForImage:[image downsizeIfNeeded]];
-        SOZOColorSorter *sorter = [SOZOColorSorter colorSorterWithGranularity:5];
+        SOZOColorSorter *sorter = [SOZOColorSorter colorSorterWithGranularity:2];
         _colors = [sorter sortColors:pixelColors];
         [self setUpColors];
     }
@@ -41,11 +41,11 @@
 }
 
 - (UIColor *)defaultFirstHighlight {
-    return [self.dominantColor intensity] > 1.5 ? [UIColor blackColor] : [UIColor whiteColor];
+    return [self.dominantColor brightness] > 0.5 ? [UIColor blackColor] : [UIColor whiteColor];
 }
 
 - (UIColor *)defaultSecondHighlight {
-    return [self.dominantColor intensity] > 1.5 ? [UIColor darkGrayColor] : [UIColor lightGrayColor];
+    return [self.dominantColor brightness] > 0.5 ? [UIColor darkGrayColor] : [UIColor lightGrayColor];
 }
 
 @end
