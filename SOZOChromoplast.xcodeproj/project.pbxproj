@@ -21,6 +21,7 @@
 		314F93B219D1C88F002AB1D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F93B119D1C88F002AB1D9 /* UIKit.framework */; };
 		314F93B619D1D24D002AB1D9 /* libSOZOChromoplast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F938219D1C371002AB1D9 /* libSOZOChromoplast.a */; };
 		314F93B819D1D25C002AB1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F93B719D1D25C002AB1D9 /* Foundation.framework */; };
+		31B4331C1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B4331B1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m */; };
 		A0D6CA22C5C548E4A2A1D97E /* libPods-SOZOChromoplastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226847F1BA6B441E8EDFB8DF /* libPods-SOZOChromoplastTests.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		314F93B119D1C88F002AB1D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		314F93B319D1CA0B002AB1D9 /* SOZOChromoplast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOZOChromoplast-Prefix.pch"; sourceTree = "<group>"; };
 		314F93B719D1D25C002AB1D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31B4331A1A6BF646006C7E40 /* UIColor+SOZOCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SOZOCompatibility.h"; sourceTree = "<group>"; };
+		31B4331B1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SOZOCompatibility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,21 +123,23 @@
 		314F938419D1C371002AB1D9 /* SOZOChromoplast */ = {
 			isa = PBXGroup;
 			children = (
-				314F93B319D1CA0B002AB1D9 /* SOZOChromoplast-Prefix.pch */,
-				314F93A719D1C82D002AB1D9 /* SOZOBitmapDataGenerator.h */,
-				314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */,
 				314F938519D1C371002AB1D9 /* SOZOChromoplast.h */,
 				314F938719D1C371002AB1D9 /* SOZOChromoplast.m */,
+				314F93A719D1C82D002AB1D9 /* SOZOBitmapDataGenerator.h */,
+				314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */,
 				314F939919D1C79F002AB1D9 /* SOZOColorSorter.h */,
 				314F939A19D1C79F002AB1D9 /* SOZOColorSorter.m */,
 				314F939B19D1C79F002AB1D9 /* SOZOColorCube.h */,
 				314F939C19D1C79F002AB1D9 /* SOZOColorCube.m */,
 				314F939D19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.h */,
 				314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */,
+				31B4331A1A6BF646006C7E40 /* UIColor+SOZOCompatibility.h */,
+				31B4331B1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m */,
 				314F93A519D1C82D002AB1D9 /* UIColor+SOZOIntensity.h */,
 				314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */,
 				314F93A219D1C81C002AB1D9 /* UIImage+SOZOResize.h */,
 				314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */,
+				314F93B319D1CA0B002AB1D9 /* SOZOChromoplast-Prefix.pch */,
 			);
 			path = SOZOChromoplast;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				314F93A019D1C79F002AB1D9 /* SOZOColorCube.m in Sources */,
 				314F938819D1C371002AB1D9 /* SOZOChromoplast.m in Sources */,
 				314F93A919D1C82D002AB1D9 /* UIColor+SOZOIntensity.m in Sources */,
+				31B4331C1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m in Sources */,
 				314F939F19D1C79F002AB1D9 /* SOZOColorSorter.m in Sources */,
 				314F93A419D1C81C002AB1D9 /* UIImage+SOZOResize.m in Sources */,
 				314F93A119D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m in Sources */,
