@@ -10,5 +10,8 @@
  @return @p YES if the colors are compatible, @p NO otherwise.
  */
 - (BOOL)sozo_isCompatibleWithColor:(UIColor *)color;
+- (UIColor *)sozo_darkerShade;
+- (UIColor *)sozo_lighterShade;
+- (float)brightness;
 
 @end

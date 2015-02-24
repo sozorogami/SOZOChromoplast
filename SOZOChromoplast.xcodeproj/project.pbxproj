@@ -13,7 +13,6 @@
 		314F93A019D1C79F002AB1D9 /* SOZOColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F939C19D1C79F002AB1D9 /* SOZOColorCube.m */; };
 		314F93A119D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */; };
 		314F93A419D1C81C002AB1D9 /* UIImage+SOZOResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */; };
-		314F93A919D1C82D002AB1D9 /* UIColor+SOZOIntensity.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */; };
 		314F93AA19D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */; };
 		314F93AE19D1C86F002AB1D9 /* SOZOColorSorterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93AB19D1C86F002AB1D9 /* SOZOColorSorterSpec.m */; };
 		314F93AF19D1C86F002AB1D9 /* SOZOColorCubeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F93AC19D1C86F002AB1D9 /* SOZOColorCubeSpec.m */; };
@@ -64,8 +63,6 @@
 		314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOCubeKeyGenerator.m; sourceTree = "<group>"; };
 		314F93A219D1C81C002AB1D9 /* UIImage+SOZOResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SOZOResize.h"; sourceTree = "<group>"; };
 		314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SOZOResize.m"; sourceTree = "<group>"; };
-		314F93A519D1C82D002AB1D9 /* UIColor+SOZOIntensity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SOZOIntensity.h"; sourceTree = "<group>"; };
-		314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SOZOIntensity.m"; sourceTree = "<group>"; };
 		314F93A719D1C82D002AB1D9 /* SOZOBitmapDataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOZOBitmapDataGenerator.h; sourceTree = "<group>"; };
 		314F93A819D1C82D002AB1D9 /* SOZOBitmapDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOBitmapDataGenerator.m; sourceTree = "<group>"; };
 		314F93AB19D1C86F002AB1D9 /* SOZOColorSorterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOZOColorSorterSpec.m; sourceTree = "<group>"; };
@@ -135,8 +132,6 @@
 				314F939E19D1C79F002AB1D9 /* SOZOCubeKeyGenerator.m */,
 				31B4331A1A6BF646006C7E40 /* UIColor+SOZOCompatibility.h */,
 				31B4331B1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m */,
-				314F93A519D1C82D002AB1D9 /* UIColor+SOZOIntensity.h */,
-				314F93A619D1C82D002AB1D9 /* UIColor+SOZOIntensity.m */,
 				314F93A219D1C81C002AB1D9 /* UIImage+SOZOResize.h */,
 				314F93A319D1C81C002AB1D9 /* UIImage+SOZOResize.m */,
 				314F93B319D1CA0B002AB1D9 /* SOZOChromoplast-Prefix.pch */,
@@ -298,7 +293,6 @@
 			files = (
 				314F93A019D1C79F002AB1D9 /* SOZOColorCube.m in Sources */,
 				314F938819D1C371002AB1D9 /* SOZOChromoplast.m in Sources */,
-				314F93A919D1C82D002AB1D9 /* UIColor+SOZOIntensity.m in Sources */,
 				31B4331C1A6BF646006C7E40 /* UIColor+SOZOCompatibility.m in Sources */,
 				314F939F19D1C79F002AB1D9 /* SOZOColorSorter.m in Sources */,
 				314F93A419D1C81C002AB1D9 /* UIImage+SOZOResize.m in Sources */,

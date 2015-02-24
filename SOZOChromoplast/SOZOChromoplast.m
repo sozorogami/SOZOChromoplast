@@ -2,7 +2,7 @@
 #import "SOZOBitmapDataGenerator.h"
 #import "UIImage+SOZOResize.h"
 #import "SOZOColorSorter.h"
-#import "UIColor+SOZOIntensity.h"
+#import "UIColor+SOZOCompatibility.h"
 
 @interface SOZOChromoplast ()
 
@@ -20,7 +20,7 @@
     self = [super init];
     if (self) {
         NSArray *pixelColors = [SOZOBitmapDataGenerator bitmapDataForImage:[image downsizeIfNeeded]];
-        SOZOColorSorter *sorter = [SOZOColorSorter colorSorterWithGranularity:2];
+        SOZOColorSorter *sorter = [SOZOColorSorter colorSorterWithGranularity:8];
         _colors = [sorter sortColors:pixelColors];
         [self setUpColors];
     }
@@ -41,11 +41,14 @@
 }
 
 - (UIColor *)defaultFirstHighlight {
-    return [self.dominantColor brightness] > 0.5 ? [UIColor blackColor] : [UIColor whiteColor];
+    return [self.dominantColor brightness] > 0.5 ?
+    [[self.dominantColor sozo_darkerShade] sozo_darkerShade] :
+    [[self.dominantColor sozo_lighterShade] sozo_lighterShade];
 }
 
 - (UIColor *)defaultSecondHighlight {
-    return [self.dominantColor brightness] > 0.5 ? [UIColor darkGrayColor] : [UIColor lightGrayColor];
+    return [self.dominantColor brightness] > 0.5 ?
+    [self.dominantColor sozo_darkerShade] : [self.dominantColor sozo_lighterShade];
 }
 
 @end
