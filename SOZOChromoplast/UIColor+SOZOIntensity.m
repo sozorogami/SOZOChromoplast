@@ -2,10 +2,10 @@
 
 @implementation UIColor (SOZOIntensity)
 
-- (float)intensity {
-    CGFloat r, g, b;
-    [self getRed:&r green:&g blue:&b alpha:NULL];
-    return r + g + b;
+- (float)brightness {
+    CGFloat brightness;
+    [self getHue:NULL saturation:NULL brightness:&brightness alpha:NULL];
+    return brightness;
 }
 
 @end
