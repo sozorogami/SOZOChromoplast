@@ -10,7 +10,371 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>024087782698612340B6250A</key>
+		<key>002235F74D8C41522689AFCD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-SOZOChromoplast.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0117E58B8458AA58E5AEC1A7</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>02F5347CD19871AE289AB4E3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DEFD6BFC7E1E770F2C4FCA89</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>04098C7939CC99416A3D1CD8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>453F01CA3CC76316039F5A50</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-SOZOChromoplast/Pods-SOZOChromoplast-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>053DCFF961074542A3F7381C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3B599B692003AEFFD059C52A</string>
+				<string>A4ADDAF9FA0F0681E869FF05</string>
+				<string>AEE9EDB98C1871BF3690ADFA</string>
+				<string>DB505B86ADEA1C9E6327D9D0</string>
+				<string>71E0170368B216BD5155416E</string>
+				<string>C498F924F9306B7258F27A41</string>
+				<string>A321D7052A036D69C7116CE8</string>
+				<string>18C0AD3706EB69F40189B418</string>
+				<string>06A4F43B37A50DB336774C68</string>
+				<string>F4C43ADFC6DFE51C140EFF53</string>
+				<string>7E4EEBE7B9144F1B8C153433</string>
+				<string>782333DFE3534A55A5C164FB</string>
+				<string>93534CC74FE596B674A9B263</string>
+				<string>C81C2BD81EFE219156F7736C</string>
+				<string>AA530C0EDB04308FF6D37D55</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SOZOChromoplast</string>
+			<key>path</key>
+			<string>../../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>055981DE3BB2D9C2BB7D0302</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>06A4F43B37A50DB336774C68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SOZOCubeKeyGenerator.h</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOCubeKeyGenerator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>15F24499C410877749EB3B85</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-SOZOChromoplast</string>
+			<key>target</key>
+			<string>AACBFA4C9CD4AEFB5AED9CA0</string>
+			<key>targetProxy</key>
+			<string>D4BE0D6BE7C622FE6DDA6094</string>
+		</dict>
+		<key>18087C879E6681F97CE84CD7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18C0AD3706EB69F40189B418</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SOZOColorSorter.m</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOColorSorter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>197D14D67206D00AEF79AEBB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-SOZOChromoplast-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>198DFDC2BB9A53CF29E116B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18C0AD3706EB69F40189B418</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>21A7EC2BCB2B7BEB4D328EE7</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3F9D9CE8385FE31E698F7FEC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>248715527F5264D100BB149C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DB505B86ADEA1C9E6327D9D0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26797E9C8FE3D78FDC0671B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>71E0170368B216BD5155416E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E37499D8E0E17D2693DA49D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8683C1A225AD84E0A1CAD1F5</string>
+				<string>04098C7939CC99416A3D1CD8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>301796E119CE0D60D5F424B1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3B599B692003AEFFD059C52A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>33201F10DB34EC1B44BBCF9C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DEFD6BFC7E1E770F2C4FCA89</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3B599B692003AEFFD059C52A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SOZOBitmapDataGenerator.h</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOBitmapDataGenerator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F9D9CE8385FE31E698F7FEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3FA4AA660A2E840A6E4064CD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DEFD6BFC7E1E770F2C4FCA89</string>
+				<string>E01625AE638C1E89A334351C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>453F01CA3CC76316039F5A50</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-SOZOChromoplast-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>49DCF109D49C8130CB588DC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AEE9EDB98C1871BF3690ADFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4C11E8CEE31B5F4C2A1B3F98</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-SOZOChromoplast.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4DE363B790CD1C22657E3903</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -23,7 +387,7 @@
 				<key>CLANG_ENABLE_MODULES</key>
 				<string>YES</string>
 				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>CLANG_WARN_BOOL_CONVERSION</key>
 				<string>YES</string>
 				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
@@ -72,75 +436,262 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>058EB0CA4F7A96E94737D88A</key>
+		<key>512DC01A6195485F5BDC217B</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A52C4C314491FA39D0121ED7</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>Debug</string>
 		</dict>
-		<key>097EA72673DD10B5E3FE4BC7</key>
+		<key>54CFFB85E81CB13550D44900</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5ABA136FF0819720D8433848</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5797ABF55D8C972A9B74AA6D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06A4F43B37A50DB336774C68</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5ABA136FF0819720D8433848</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
+			<string>Pods-SOZOChromoplast-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>09BD9D1C4D21F3BA8F4909AD</key>
+		<key>5DD6F315C95EB654708F1CE5</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>DF9E33DD75292E203C8A0A45</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>72F17691B14268E35D7DC01C</string>
+			<key>productRefGroup</key>
+			<string>CE5BFBDC16945C64B112F9E4</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>FD3C2D85C652C92FCB76EF9F</string>
+				<string>AACBFA4C9CD4AEFB5AED9CA0</string>
+			</array>
+		</dict>
+		<key>6269660A2C34D8B6B2FC7D2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>93534CC74FE596B674A9B263</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71CA0FACB420C2B34F92E523</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>B5C888174BBD2A6D6873B15A</string>
+				<string>3FA4AA660A2E840A6E4064CD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Development Pods</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0AE59BA2482B9ACD18961EC4</key>
+		<key>71E0170368B216BD5155416E</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>682E67C945691F51BC122FD4</string>
-			<key>buildPhases</key>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SOZOColorCube.h</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOColorCube.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72F17691B14268E35D7DC01C</key>
+		<dict>
+			<key>children</key>
 			<array>
-				<string>2DFBED8FFC1C6CBB44F360A0</string>
-				<string>D99FBDB569B57A5CC6B31285</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C4394AD46FDE0A119A695C61</string>
+				<string>C30A4F30EE841E293C5DD676</string>
+				<string>AC396033BF4FD4D33FE1CF81</string>
+				<string>71CA0FACB420C2B34F92E523</string>
+				<string>CE5BFBDC16945C64B112F9E4</string>
+				<string>B65F35BF34D3E33430CDDCEC</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>782333DFE3534A55A5C164FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIColor+SOZOCompatibility.m</string>
+			<key>path</key>
+			<string>SOZOChromoplast/UIColor+SOZOCompatibility.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>795822E7F50FA3F0CC021D48</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>54CFFB85E81CB13550D44900</string>
+				<string>8F35CE2246AFCC5FE475FDBE</string>
+				<string>248715527F5264D100BB149C</string>
+				<string>8FB5111481BCA48CEE06F5CA</string>
+				<string>198DFDC2BB9A53CF29E116B4</string>
+				<string>9610AB917B37E70B0954591C</string>
+				<string>BA9567AC56E211312F1F83DE</string>
+				<string>CCD298FA5D229D20DC7D2AC1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7B137E4191FF7AC031434271</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E9502339025DE003CFF6A49E</string>
+				<string>B395A1509771A5D5F0986CE9</string>
+				<string>18087C879E6681F97CE84CD7</string>
+				<string>D98CB10EAD4C932B38641E2F</string>
+				<string>055981DE3BB2D9C2BB7D0302</string>
+				<string>A52C4C314491FA39D0121ED7</string>
+				<string>3F9D9CE8385FE31E698F7FEC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>A55D7A1C44B5F57FCBE14310</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<key>path</key>
+			<string>Target Support Files/Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F0F338ADAB65033C535076A</key>
+		<key>7E4EEBE7B9144F1B8C153433</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIColor+SOZOCompatibility.h</string>
+			<key>path</key>
+			<string>SOZOChromoplast/UIColor+SOZOCompatibility.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81D3142E6DD372C83CD58AC0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>02F5347CD19871AE289AB4E3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>85715AB94ADA0362D763FC40</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A321D7052A036D69C7116CE8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8683C1A225AD84E0A1CAD1F5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>D166ABC09C7871CD113D9C09</string>
+			<string>453F01CA3CC76316039F5A50</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -186,102 +737,127 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>0F71AE1D4EC7CC7774F32FCF</key>
+		<key>8AC4AA6572EDF47FFF965817</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>33201F10DB34EC1B44BBCF9C</string>
+				<string>D929BB08C538C5F1DEAF2376</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8F35CE2246AFCC5FE475FDBE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A4ADDAF9FA0F0681E869FF05</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8FB5111481BCA48CEE06F5CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C498F924F9306B7258F27A41</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93534CC74FE596B674A9B263</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0FBF8E221D39E0522D581D33</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BFD19BE3F084322D624C0132</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>173D7283800A45ACABC45B06</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>83E346E0B5ACA98B6B0AF194</string>
-				<string>09BD9D1C4D21F3BA8F4909AD</string>
-				<string>A74432F0E3F4CA6D39E689AF</string>
-				<string>5E47864E876FB4768C448D78</string>
-				<string>852DD64B6E5B92C3DDC266D0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>UIImage+SOZOResize.h</string>
+			<key>path</key>
+			<string>SOZOChromoplast/UIImage+SOZOResize.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>18D16BE069911EF290141B93</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C61D15BE3B75DC2C56157591</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>342336EAAB526756C4C03894</string>
-			<key>remoteInfo</key>
-			<string>Pods-SOZOChromoplast</string>
-		</dict>
-		<key>1AC61ECEC654A2FC0DA5B2EC</key>
+		<key>958F4C7919D1993DB6711815</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F31CF4C432DD33194255471E</string>
+			<string>7E4EEBE7B9144F1B8C153433</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>281577927CBCA29E867CD997</key>
+		<key>9610AB917B37E70B0954591C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F4C43ADFC6DFE51C140EFF53</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D211631A35BC56782968D7A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>301796E119CE0D60D5F424B1</string>
+				<string>49DCF109D49C8130CB588DC8</string>
+				<string>26797E9C8FE3D78FDC0671B4</string>
+				<string>85715AB94ADA0362D763FC40</string>
+				<string>5797ABF55D8C972A9B74AA6D</string>
+				<string>958F4C7919D1993DB6711815</string>
+				<string>6269660A2C34D8B6B2FC7D2C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A321D7052A036D69C7116CE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SOZOColorSorter.h</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOColorSorter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4ADDAF9FA0F0681E869FF05</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SOZOBitmapDataGenerator.m</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOBitmapDataGenerator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4C23299EB9CD86A46DB44D8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>512DC01A6195485F5BDC217B</string>
+				<string>21A7EC2BCB2B7BEB4D328EE7</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A52C4C314491FA39D0121ED7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -290,198 +866,11 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods.release.xcconfig</string>
+			<string>Pods.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2D528D7059237A3B2EB42C92</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-SOZOChromoplast.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2DFBED8FFC1C6CBB44F360A0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>77186DADAC126F76DEB074F6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2E92A161739D420466371586</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9FC63F8CA012B681746A854</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>2F2C7020D2B120AA0372FCF7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>281577927CBCA29E867CD997</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>342336EAAB526756C4C03894</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8214B6C186147979A26DB973</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D1171D7DBF55765D69BBA0EE</string>
-				<string>A781489BBC974D55628BD8E3</string>
-				<string>E2B6E525D44999B0717702EB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SOZOChromoplast</string>
-			<key>productName</key>
-			<string>Pods-SOZOChromoplast</string>
-			<key>productReference</key>
-			<string>2D528D7059237A3B2EB42C92</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>3D8C9A72DD74851A2E08EF22</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D166ABC09C7871CD113D9C09</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SOZOChromoplast/Pods-SOZOChromoplast-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>421D2FB69379D400BFB96094</key>
-		<dict>
-			<key>fileRef</key>
-			<string>883731A9188C7496E4ACBCC4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4A9EFB0F22E791D601612B1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BFCC297FD023756B2BFAE2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>4AC263A552670330337954C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85B4DE3AEF0631BD6CB989BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4FE822A9D955B372C50A9B0D</key>
+		<key>A902AE90BE806EAEFE1DF4F5</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -494,7 +883,7 @@
 				<key>CLANG_ENABLE_MODULES</key>
 				<string>YES</string>
 				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>CLANG_WARN_BOOL_CONVERSION</key>
 				<string>YES</string>
 				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
@@ -548,7 +937,63 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5B653C4D2D7FAD04B2C63B26</key>
+		<key>AA530C0EDB04308FF6D37D55</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>002235F74D8C41522689AFCD</string>
+				<string>453F01CA3CC76316039F5A50</string>
+				<string>5ABA136FF0819720D8433848</string>
+				<string>197D14D67206D00AEF79AEBB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Examples/AnAlbumCover/Pods/Target Support Files/Pods-SOZOChromoplast</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AACBFA4C9CD4AEFB5AED9CA0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2E37499D8E0E17D2693DA49D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>795822E7F50FA3F0CC021D48</string>
+				<string>8AC4AA6572EDF47FFF965817</string>
+				<string>9D211631A35BC56782968D7A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-SOZOChromoplast</string>
+			<key>productName</key>
+			<string>Pods-SOZOChromoplast</string>
+			<key>productReference</key>
+			<string>4C11E8CEE31B5F4C2A1B3F98</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>AC396033BF4FD4D33FE1CF81</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>053DCFF961074542A3F7381C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AEE9EDB98C1871BF3690ADFA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -563,161 +1008,53 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5CAA8455339C790541DD8EEC</key>
+		<key>B395A1509771A5D5F0986CE9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SOZOBitmapDataGenerator.h</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>SOZOChromoplast/SOZOBitmapDataGenerator.h</string>
+			<string>Pods-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5E47864E876FB4768C448D78</key>
+		<key>B65F35BF34D3E33430CDDCEC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A55D7A1C44B5F57FCBE14310</string>
-				<string>2D528D7059237A3B2EB42C92</string>
+				<string>7B137E4191FF7AC031434271</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>682E67C945691F51BC122FD4</key>
+		<key>BA9567AC56E211312F1F83DE</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>fileRef</key>
+			<string>782333DFE3534A55A5C164FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BB0F9E11429710F6AB4D8FED</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>0FBF8E221D39E0522D581D33</string>
-				<string>2F2C7020D2B120AA0372FCF7</string>
+				<string>E26603F01FC319A64A953AC9</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>692B594FC876CFEB470B84F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC94664F6132699658DEA365</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6BFCC297FD023756B2BFAE2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SOZOColorCube.m</string>
-			<key>path</key>
-			<string>SOZOChromoplast/SOZOColorCube.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72C62C2AB92E452A3FCBA305</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ECA485D7807B2346FD457247</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>741F1B0A9FA6C68D4F4289E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>058EB0CA4F7A96E94737D88A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7467651DADAB0BB952C40D16</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SOZOColorSorter.h</string>
-			<key>path</key>
-			<string>SOZOChromoplast/SOZOColorSorter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7596D3173E29824059F9FCD3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>984A7B01102A230ED5B933F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>77186DADAC126F76DEB074F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>908A7413406337D037DB6987</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79EB3D9EB47EBC2B1F19A9D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91295B3697760D6083E02F7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>80D8482C0B0DB63CCB6C98D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SOZOChromoplast.m</string>
-			<key>path</key>
-			<string>SOZOChromoplast/SOZOChromoplast.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8214B6C186147979A26DB973</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0F0F338ADAB65033C535076A</string>
-				<string>3D8C9A72DD74851A2E08EF22</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>83E346E0B5ACA98B6B0AF194</key>
+		<key>C30A4F30EE841E293C5DD676</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -734,7 +1071,7 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>847F20C3167D510FDEF04C46</key>
+		<key>C498F924F9306B7258F27A41</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -743,133 +1080,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>UIColor+SOZOIntensity.m</string>
+			<string>SOZOColorCube.m</string>
 			<key>path</key>
-			<string>SOZOChromoplast/UIColor+SOZOIntensity.m</string>
+			<string>SOZOChromoplast/SOZOColorCube.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>852DD64B6E5B92C3DDC266D0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>85875A8C401F4D181949BE16</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85875A8C401F4D181949BE16</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB03B98ABEC82763B344C890</string>
-				<string>097EA72673DD10B5E3FE4BC7</string>
-				<string>908A7413406337D037DB6987</string>
-				<string>D476BD64B405D6F2C11B4CE0</string>
-				<string>0F71AE1D4EC7CC7774F32FCF</string>
-				<string>BFD19BE3F084322D624C0132</string>
-				<string>281577927CBCA29E867CD997</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85B4DE3AEF0631BD6CB989BE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>86E944A8328DC0B9518464A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SOZOChromoplast-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>883731A9188C7496E4ACBCC4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SOZOChromoplast-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B2C427A3E93F76BC2E61441</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80D8482C0B0DB63CCB6C98D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>8E644CDFDED45A3602BB84C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85B4DE3AEF0631BD6CB989BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>908A7413406337D037DB6987</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91295B3697760D6083E02F7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SOZOCubeKeyGenerator.m</string>
-			<key>path</key>
-			<string>SOZOChromoplast/SOZOCubeKeyGenerator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9176BA1AB4A531C856502248</key>
+		<key>C81C2BD81EFE219156F7736C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -884,317 +1101,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>984A7B01102A230ED5B933F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SOZOBitmapDataGenerator.m</string>
-			<key>path</key>
-			<string>SOZOChromoplast/SOZOBitmapDataGenerator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98AB11B651CEC37117806F98</key>
+		<key>CCD298FA5D229D20DC7D2AC1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5CAA8455339C790541DD8EEC</string>
+			<string>C81C2BD81EFE219156F7736C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9A84E7643069E3B96EA0AED5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7467651DADAB0BB952C40D16</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A55D7A1C44B5F57FCBE14310</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A74432F0E3F4CA6D39E689AF</key>
+		<key>CE5BFBDC16945C64B112F9E4</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D8629A2058CA86CE5B1D8910</string>
+				<string>0117E58B8458AA58E5AEC1A7</string>
+				<string>4C11E8CEE31B5F4C2A1B3F98</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A781489BBC974D55628BD8E3</key>
+		<key>D4BE0D6BE7C622FE6DDA6094</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4AC263A552670330337954C9</string>
-				<string>741F1B0A9FA6C68D4F4289E9</string>
-			</array>
+			<key>containerPortal</key>
+			<string>5DD6F315C95EB654708F1CE5</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>AACBFA4C9CD4AEFB5AED9CA0</string>
+			<key>remoteInfo</key>
+			<string>Pods-SOZOChromoplast</string>
 		</dict>
-		<key>AAC78F982607B9D9A12AF3AE</key>
+		<key>D929BB08C538C5F1DEAF2376</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B832FCFB361A32ED320018D4</string>
+			<string>E01625AE638C1E89A334351C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>AE7D0AA21AC2B4DF9E5D7BC7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9176BA1AB4A531C856502248</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>B5C888174BBD2A6D6873B15A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5CAA8455339C790541DD8EEC</string>
-				<string>984A7B01102A230ED5B933F2</string>
-				<string>5B653C4D2D7FAD04B2C63B26</string>
-				<string>80D8482C0B0DB63CCB6C98D5</string>
-				<string>BC94664F6132699658DEA365</string>
-				<string>6BFCC297FD023756B2BFAE2F</string>
-				<string>7467651DADAB0BB952C40D16</string>
-				<string>F302D5E1A8B99D1539143D26</string>
-				<string>F31CF4C432DD33194255471E</string>
-				<string>91295B3697760D6083E02F7E</string>
-				<string>B832FCFB361A32ED320018D4</string>
-				<string>B9FC63F8CA012B681746A854</string>
-				<string>C8D637D0AE0759F1D1F3BB74</string>
-				<string>847F20C3167D510FDEF04C46</string>
-				<string>ECA485D7807B2346FD457247</string>
-				<string>9176BA1AB4A531C856502248</string>
-				<string>FF0437E11F35118ED46FF0EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SOZOChromoplast</string>
-			<key>path</key>
-			<string>../../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B832FCFB361A32ED320018D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIColor+SOZOCompatibility.h</string>
-			<key>path</key>
-			<string>SOZOChromoplast/UIColor+SOZOCompatibility.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9FC63F8CA012B681746A854</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIColor+SOZOCompatibility.m</string>
-			<key>path</key>
-			<string>SOZOChromoplast/UIColor+SOZOCompatibility.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB03B98ABEC82763B344C890</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC94664F6132699658DEA365</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SOZOColorCube.h</string>
-			<key>path</key>
-			<string>SOZOChromoplast/SOZOColorCube.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFD19BE3F084322D624C0132</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4394AD46FDE0A119A695C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>342336EAAB526756C4C03894</string>
-			<key>targetProxy</key>
-			<string>18D16BE069911EF290141B93</string>
-		</dict>
-		<key>C61D15BE3B75DC2C56157591</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>DD7C1F554B83017CFDE24E0F</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>173D7283800A45ACABC45B06</string>
-			<key>productRefGroup</key>
-			<string>5E47864E876FB4768C448D78</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>0AE59BA2482B9ACD18961EC4</string>
-				<string>342336EAAB526756C4C03894</string>
-			</array>
-		</dict>
-		<key>C8D637D0AE0759F1D1F3BB74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIColor+SOZOIntensity.h</string>
-			<key>path</key>
-			<string>SOZOChromoplast/UIColor+SOZOIntensity.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCF55E631C7B75A83C1D754F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F302D5E1A8B99D1539143D26</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>D0DDBF5DF84EB3A7FCABD0F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SOZOChromoplast.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1171D7DBF55765D69BBA0EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>421D2FB69379D400BFB96094</string>
-				<string>7596D3173E29824059F9FCD3</string>
-				<string>8B2C427A3E93F76BC2E61441</string>
-				<string>4A9EFB0F22E791D601612B1B</string>
-				<string>CCF55E631C7B75A83C1D754F</string>
-				<string>79EB3D9EB47EBC2B1F19A9D4</string>
-				<string>2E92A161739D420466371586</string>
-				<string>FA45BF0CB84863D830F22A3A</string>
-				<string>AE7D0AA21AC2B4DF9E5D7BC7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D166ABC09C7871CD113D9C09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SOZOChromoplast-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D476BD64B405D6F2C11B4CE0</key>
+		<key>D98CB10EAD4C932B38641E2F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1207,97 +1155,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D8629A2058CA86CE5B1D8910</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>85B4DE3AEF0631BD6CB989BE</string>
-				<string>058EB0CA4F7A96E94737D88A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D99FBDB569B57A5CC6B31285</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8E644CDFDED45A3602BB84C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DD7C1F554B83017CFDE24E0F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4FE822A9D955B372C50A9B0D</string>
-				<string>024087782698612340B6250A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E2B6E525D44999B0717702EB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>98AB11B651CEC37117806F98</string>
-				<string>E2FBE583C44A377C4F87372B</string>
-				<string>692B594FC876CFEB470B84F6</string>
-				<string>9A84E7643069E3B96EA0AED5</string>
-				<string>1AC61ECEC654A2FC0DA5B2EC</string>
-				<string>AAC78F982607B9D9A12AF3AE</string>
-				<string>ED42EEFC468EEA036CD8752A</string>
-				<string>72C62C2AB92E452A3FCBA305</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E2FBE583C44A377C4F87372B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B653C4D2D7FAD04B2C63B26</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ECA485D7807B2346FD457247</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+SOZOResize.h</string>
-			<key>path</key>
-			<string>SOZOChromoplast/UIImage+SOZOResize.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED42EEFC468EEA036CD8752A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C8D637D0AE0759F1D1F3BB74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F302D5E1A8B99D1539143D26</key>
+		<key>DB505B86ADEA1C9E6327D9D0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1306,59 +1164,115 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SOZOColorSorter.m</string>
+			<string>SOZOChromoplast.m</string>
 			<key>path</key>
-			<string>SOZOChromoplast/SOZOColorSorter.m</string>
+			<string>SOZOChromoplast/SOZOChromoplast.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F31CF4C432DD33194255471E</key>
+		<key>DEFD6BFC7E1E770F2C4FCA89</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>DF9E33DD75292E203C8A0A45</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A902AE90BE806EAEFE1DF4F5</string>
+				<string>4DE363B790CD1C22657E3903</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E01625AE638C1E89A334351C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>E26603F01FC319A64A953AC9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18087C879E6681F97CE84CD7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E9502339025DE003CFF6A49E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SOZOCubeKeyGenerator.h</string>
+			<string>text</string>
 			<key>path</key>
-			<string>SOZOChromoplast/SOZOCubeKeyGenerator.h</string>
+			<string>Pods-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FA45BF0CB84863D830F22A3A</key>
+		<key>F4C43ADFC6DFE51C140EFF53</key>
 		<dict>
-			<key>fileRef</key>
-			<string>847F20C3167D510FDEF04C46</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SOZOCubeKeyGenerator.m</string>
+			<key>path</key>
+			<string>SOZOChromoplast/SOZOCubeKeyGenerator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FF0437E11F35118ED46FF0EE</key>
+		<key>FD3C2D85C652C92FCB76EF9F</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurationList</key>
+			<string>A4C23299EB9CD86A46DB44D8</string>
+			<key>buildPhases</key>
 			<array>
-				<string>D0DDBF5DF84EB3A7FCABD0F0</string>
-				<string>D166ABC09C7871CD113D9C09</string>
-				<string>883731A9188C7496E4ACBCC4</string>
-				<string>86E944A8328DC0B9518464A3</string>
+				<string>BB0F9E11429710F6AB4D8FED</string>
+				<string>81D3142E6DD372C83CD58AC0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>15F24499C410877749EB3B85</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Examples/AnAlbumCover/Pods/Target Support Files/Pods-SOZOChromoplast</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>0117E58B8458AA58E5AEC1A7</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>C61D15BE3B75DC2C56157591</string>
+	<string>5DD6F315C95EB654708F1CE5</string>
 </dict>
 </plist>

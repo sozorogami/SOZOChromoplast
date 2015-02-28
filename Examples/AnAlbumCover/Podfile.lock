@@ -1,5 +1,5 @@
 PODS:
-  - SOZOChromoplast (0.0.1)
+  - SOZOChromoplast (0.0.2)
 
 DEPENDENCIES:
   - SOZOChromoplast (from `../../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../../
 
 SPEC CHECKSUMS:
-  SOZOChromoplast: d5738e50d79be61fb437dabf6604cfd9c4314f10
+  SOZOChromoplast: 2bd31594512bb0104946c174243ade8d2564449c
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0
