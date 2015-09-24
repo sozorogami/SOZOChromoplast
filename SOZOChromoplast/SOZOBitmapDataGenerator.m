@@ -2,6 +2,8 @@
 
 @implementation SOZOBitmapDataGenerator
 
+static void *bitmapData;
+
 + (NSArray *)bitmapDataForImage:(UIImage *)image {
     NSMutableArray *array = [NSMutableArray new];
     unsigned char* cArray = [self rawBitmapDataForImage:image];
@@ -14,6 +16,7 @@
                                 alpha:cArray[i]/255.f];
         [array addObject:color];
     }
+    free(bitmapData);
     return array;
 }
 
@@ -41,7 +44,7 @@
     unsigned long bytesPerRow = size.width * bytesPerPixel;
     unsigned long totalBytes = bytesPerRow * size.height;
 
-    void *bitmapData = malloc(totalBytes);
+    bitmapData = malloc(totalBytes);
     if (!bitmapData) {
         [NSException raise:NSInternalInconsistencyException format:@"Memory allocation error."];
     }
