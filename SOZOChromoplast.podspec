@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SOZOChromoplast"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Extract the most prevalent colors from a UIImage"
 
   s.description  = <<-DESC
