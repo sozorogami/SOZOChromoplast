@@ -37,7 +37,7 @@
         [NSException raise:NSInternalInconsistencyException format:@"Error creating color space."];
     }
 
-    NSInteger bytesPerPixel = 6; 
+    NSInteger bytesPerPixel = 4;
     unsigned long bytesPerRow = size.width * bytesPerPixel;
     unsigned long totalBytes = bytesPerRow * size.height;
 
